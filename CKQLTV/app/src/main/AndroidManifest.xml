@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.CK.QLTV">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.OrderDrinkApp">
+        <activity android:name="com.CK.QLTV.Activities.DetailStatisticActivity"></activity>
+        <activity android:name="com.CK.QLTV.Activities.AddKhActivity" />
+        <activity
+            android:name="com.CK.QLTV.Activities.EditGioHangActivity"
+            android:label="Sửa bàn ăn"
+            android:theme="@style/PopUpActivity" />
+        <activity android:name="com.CK.QLTV.Activities.PaymentActivity" />
+        <activity
+            android:name="com.CK.QLTV.Activities.AmountMenuActivity"
+            android:label="Số quyển"
+            android:theme="@style/PopUpActivity" />
+        <activity android:name="com.CK.QLTV.Activities.AddCategoryActivity" />
+        <activity android:name="com.CK.QLTV.Activities.AddMenuActivity" />
+        <activity
+            android:name="com.CK.QLTV.Activities.AddGioHangActivity"
+            android:label="@string/addTable"
+            android:theme="@style/PopUpActivity" />
+        <activity android:name="com.CK.QLTV.Activities.HomeActivity" />
+        <activity android:name="com.CK.QLTV.Activities.LoginActivity" />
+        <activity android:name="com.CK.QLTV.Activities.Register2ndActivity" />
+        <activity android:name="com.CK.QLTV.Activities.WelcomeActivity" />
+        <activity android:name="com.CK.QLTV.Activities.RegisterActivity" />
+        <activity android:name="com.CK.QLTV.Activities.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
